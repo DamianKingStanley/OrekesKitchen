@@ -1,0 +1,57 @@
+.AllFoodSingle {
+  padding: 50px 100px;
+}
+
+.AllFood {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+#foodImage {
+  width: 300px;
+  height: 200px;
+}
+
+#qty {
+  color: #d75d16;
+}
+
+#quantity {
+  border-radius: 10px;
+  border: 1px solid #d75d16;
+  height: 40px;
+}
+
+#addCartbtn {
+  border: none;
+  width: 300px;
+  background-color: #d75d16;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.AddedCartMsg {
+  background-color: #d75d16;
+  padding: 10px;
+  color: white;
+  width: 300px;
+}
+
+.AddedCartMsg a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+  .AllFoodSingle {
+    padding: 50px 20px;
+  }
+  .AllFood {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

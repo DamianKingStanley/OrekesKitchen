@@ -1,0 +1,110 @@
+.IndividualPostBody {
+  background-color: white;
+  padding: 30px;
+}
+
+.IndividualPostWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  cursor: pointer;
+}
+
+#TitleHead {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  border-color: blue;
+  background-image: linear-gradient(45deg, #0b267e, #5d125f);
+  border-radius: 10px 1opx 0px 0px;
+  color: white;
+  padding: 2px 0px;
+}
+
+.TitleTop {
+  padding-left: 20px;
+}
+
+.TitleTop h3 {
+  font-size: 20px;
+}
+
+.TitleTop p {
+  font-size: 10px;
+}
+
+#TitleHeader {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid;
+  border-color: blue;
+  border-radius: 0px 0px 10px 10px;
+  height: 200px;
+}
+
+#TitleHeader h3 {
+  background-image: linear-gradient(45deg, #0b267e, #5d125f);
+  color: white;
+  padding: 5px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dots {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.dots span {
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  margin: 4px auto;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-image: linear-gradient(50deg, #cdc5c1, #cf713b);
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown.open .dropdown-menu {
+  display: block;
+}
+
+.clipboard-message {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+@media screen and (max-width: 980px) {
+  .IndividualPostWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #TitleHeader {
+    height: auto;
+  }
+}

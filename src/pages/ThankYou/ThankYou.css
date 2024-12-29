@@ -1,0 +1,56 @@
+.ThankYou {
+  padding: 20px 100px;
+  background-color: #fbfade;
+  background-image: url(../../assest/confirmedchef.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.confirmMessage h1 {
+  font-size: 20px;
+  margin-right: 300px;
+}
+
+#confirmIcon {
+  margin-left: 200px;
+}
+
+#chefbtn {
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  .ThankYou {
+    padding: 20px 10px;
+    background-color: #fbfade;
+    background-image: url(../../assest/confirmedchef.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .confirmMessage h1 {
+    font-size: 16px;
+    margin-right: 30px;
+    text-align: center;
+  }
+  #confirmIcon {
+    margin-left: 120px;
+  }
+  #kuda {
+    width: 340px;
+  }
+  #chefbtn {
+    margin-left: 100px;
+  }
+  .PaymentMethod h1 {
+    font-size: 20px;
+    background-color: #362658;
+    color: white;
+    padding: 20px;
+  }
+}

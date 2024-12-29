@@ -1,0 +1,102 @@
+.HeroSectionBody {
+  background-image: url(../../assest/nigerian-food.jpg);
+  background-repeat: no-repeat;
+  /* background-position: right; */
+  background-size: cover;
+  background-color: #bf780a;
+}
+
+.HeroWriteUp h1 {
+  font-size: 105px;
+  padding: 40px 600px 0px 100px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.HeroWriteUp h2 {
+  font-size: 40px;
+  padding: 0px 350px 20px 100px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.HeroWriteUp h3 {
+  padding: 30px 670px 20px 100px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 19px;
+}
+
+.HeroActionBtn {
+  padding: 30px 100px 20px 100px;
+}
+
+#SWBtn {
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, red, white);
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  width: 250px;
+}
+
+#SWBtn .text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+}
+
+#SWBtn:after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: #0e0e10;
+}
+
+#SWBtn:hover {
+  background-image: linear-gradient(-45deg, #bf780a, #b06ab3);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+#SWBtn:hover .text {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+}
+
+@media screen and (max-width: 980px) {
+  .HeroWriteUp h1 {
+    font-size: 50px;
+    padding: 50px 10px 10px 10px;
+  }
+  .HeroWriteUp h2 {
+    font-size: 20px;
+    padding: 0px 10px 10px 10px;
+  }
+  .HeroWriteUp h3 {
+    padding: 0px 10px 10px 10px;
+    font-size: 12px;
+  }
+  .HeroActionBtn {
+    padding: 20px 0px 20px 0px;
+  }
+  #SWBtn {
+    width: 150px;
+    font-size: 12px;
+    margin-left: 20px;
+    height: 50px;
+  }
+}

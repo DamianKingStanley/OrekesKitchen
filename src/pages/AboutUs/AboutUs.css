@@ -1,0 +1,9 @@
+.AboutUs {
+  padding: 20px 100px;
+}
+
+@media screen and (max-width: 980px) {
+  .AboutUs {
+    padding: 20px 30px;
+  }
+}

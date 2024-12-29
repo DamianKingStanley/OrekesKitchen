@@ -1,0 +1,15 @@
+.footerLists {
+  padding: 30px;
+  background-color: #cf713b;
+  color: white;
+}
+
+.footerLists p {
+  color: white;
+}
+
+@media screen and (max-width: 980px) {
+  .footerLists p {
+    font-size: 12px;
+  }
+}

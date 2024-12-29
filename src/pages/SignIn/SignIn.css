@@ -1,0 +1,96 @@
+.SignInbody {
+  background-color: beige;
+  color: #d75d16;
+  padding: 60px 10px 100px 10px;
+}
+
+.register {
+  padding: 50px 100px;
+}
+
+#yourFullName,
+#yourEmailAddress,
+#yourpassword {
+  width: 300px;
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  border: 1px solid #d75d16;
+  outline: none;
+  background: transparent;
+}
+
+#yoursubmitbtn {
+  background-color: #d75d16;
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+}
+
+#yourFullName:hover,
+#youremailAddress:hover,
+#yourpassword:hover {
+  border: 3px solid;
+  border-color: #0b5ed7;
+}
+
+#registerform p {
+  font-size: 20px;
+}
+
+#passwordmatchAlert p {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  width: 500px;
+}
+
+.success-message {
+  background-color: blue;
+  color: white;
+  width: 500px;
+  padding: 20px;
+}
+
+.error-message {
+  background-color: red;
+  color: white;
+  width: 500px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .SignInbody {
+    padding: 55px 0px 140px 0px;
+  }
+  .register {
+    padding: 20px 40px;
+  }
+  #yourFullName,
+  #yourEmailAddress,
+  #yourpassword,
+  #yoursubmitbtn {
+    width: 250px;
+    height: 40px;
+    padding-left: 0px;
+    padding-left: 20px;
+  }
+  #registerform p {
+    font-size: 15px;
+  }
+  #passwordmatchAlert p {
+    width: 250px;
+    font-size: 10px;
+  }
+  .success-message {
+    width: 250px;
+    font-size: 12px;
+  }
+  .error-message {
+    width: 250px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,11 @@
+.content-header h1 {
+  padding: 20px 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  .content-header h1 {
+    padding: 20px 10px;
+    text-align: center;
+  }
+}

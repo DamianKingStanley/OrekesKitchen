@@ -1,0 +1,38 @@
+.PostCardFeedbackBody {
+  padding: 20px 100px;
+}
+
+.postCardFeedback {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.feedback_image {
+  width: 375px;
+  height: 300px;
+  background-color: #f6910c;
+}
+
+.MainContent p {
+  background-color: #f6910c;
+  color: white;
+  padding: 6px;
+  text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  .PostCardFeedbackBody {
+    padding: 30px 20px;
+  }
+  .postCardFeedback {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .feedback_image {
+    width: 320px;
+    height: 250px;
+    background-color: #f6910c;
+  }
+}

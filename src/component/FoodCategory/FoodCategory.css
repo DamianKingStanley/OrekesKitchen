@@ -1,0 +1,54 @@
+.FoodCategoryBody {
+  padding: 20px 100px;
+  background-color: #cf713b;
+  color: white;
+}
+
+.FoodCategory {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  animation: slideInBottom 1s ease;
+  margin-top: 20px;
+}
+
+.FoodCategoryItem {
+  display: inline-block;
+  margin-right: 10px;
+  animation: fadeIn 1s ease;
+}
+
+.FoodCategoryItem img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid red;
+}
+
+.FoodCategoryItem p {
+  margin-left: 25px;
+}
+
+@keyframes slideInBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .FoodCategoryBody {
+    padding: 20px 10px;
+  }
+}

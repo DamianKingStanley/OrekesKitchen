@@ -1,0 +1,105 @@
+.UpdateProfileBody {
+    background-color: beige;
+}
+
+.UpdateProfileForm {
+    padding: 50px 50px 100px 50px;
+    margin: 20px 40px 0px 40px;
+}
+
+.UpdateProfileForm h2 {
+    color: blue;
+}
+
+#fullname,
+#username,
+#phoneNumber,
+#location {
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid blue;
+    background-color: inherit;
+}
+
+#updateButton {
+    width: 500px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+#updateButton:hover {
+    background-color: rgb(3, 3, 56);
+}
+
+.profile-picture-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-picture-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-picture-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.profile-picture-label {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.profile-picture-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #555;
+    height: 100%;
+}
+
+.profile-picture-input {
+    color: red;
+}
+
+@media screen and (max-width: 980px) {
+    .UpdateProfileBody {
+        background-color: beige;
+    }
+    .UpdateProfileForm {
+        padding: 20px 10px 100px 10px;
+        margin: 20px 0px 0px 5px;
+        background-color: beige;
+    }
+    #fullname,
+    #username,
+    #phoneNumber,
+    #location {
+        width: 300px;
+        height: 50px;
+        padding-left: auto;
+    }
+    #updateButton {
+        width: 300px;
+        height: 50px;
+    }
+}

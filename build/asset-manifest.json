@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c427909c.css",
+    "main.js": "/static/js/main.71532b6e.js",
+    "static/media/iyanandefor.png": "/static/media/iyanandefor.24ba98aa9fec3ef95fe1.png",
+    "static/media/OrekePriceList.jpg": "/static/media/OrekePriceList.0904ee35dec4d2742b9b.jpg",
+    "static/media/amalaandabula.png": "/static/media/amalaandabula.bc7c33b07af59bc9f69a.png",
+    "static/media/stewbowl.jpg": "/static/media/stewbowl.94445fd626c41e47126d.jpg",
+    "static/media/soupbowl.jpg": "/static/media/soupbowl.1ddf08627c21a68299d1.jpg",
+    "static/media/coconutricewithchciken.jpg": "/static/media/coconutricewithchciken.ee031d238770ba9ba93b.jpg",
+    "static/media/africanchef22.png": "/static/media/africanchef22.86d4f46413af682d5f16.png",
+    "static/media/coconutricewithfish.jpg": "/static/media/coconutricewithfish.13a66db80ff786eb1b63.jpg",
+    "static/media/jollofwithfish.jpg": "/static/media/jollofwithfish.62c4507c1c8dee44227e.jpg",
+    "static/media/chickenlap.jpg": "/static/media/chickenlap.9ebcaee7c81997b65d74.jpg",
+    "static/media/orekelog.ico": "/static/media/orekelog.1f965ab93e66effc0f8a.ico",
+    "static/media/turkeymeat.jpg": "/static/media/turkeymeat.5a9f9ef5a486f677c688.jpg",
+    "static/media/africancheff.png": "/static/media/africancheff.c6c933e2da73ab43dfdc.png",
+    "static/media/nigerian-food.jpg": "/static/media/nigerian-food.62e297f303a22ce24833.jpg",
+    "static/media/jollofwithchicken.jpg": "/static/media/jollofwithchicken.283d5509c99f691ee213.jpg",
+    "static/media/jollofwithmeat.jpg": "/static/media/jollofwithmeat.565c06a7b1b346f75afc.jpg",
+    "static/media/iyanandegusi.jpg": "/static/media/iyanandegusi.082489f0a7ec9599ffdc.jpg",
+    "static/media/mixedveggies.jpg": "/static/media/mixedveggies.3b352a56dfe3b3eea27d.jpg",
+    "static/media/coconutricewithbeef.jpg": "/static/media/coconutricewithbeef.5087747e2f4cd61b387e.jpg",
+    "index.html": "/index.html",
+    "main.c427909c.css.map": "/static/css/main.c427909c.css.map",
+    "main.71532b6e.js.map": "/static/js/main.71532b6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c427909c.css",
+    "static/js/main.71532b6e.js"
+  ]
+}

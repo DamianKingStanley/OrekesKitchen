@@ -1,0 +1,81 @@
+.contactUsBody {
+  background-color: white;
+  background-image: url(../../assest/africanchef22.png);
+  background-image: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.contact_us {
+  margin: 10px 300px;
+  margin-left: 500px;
+  padding-top: 50px;
+}
+
+.TakeOrder h1 {
+  text-align: center;
+}
+
+label {
+  color: #bf780a;
+  font-weight: bold;
+}
+
+#fullName,
+#yourphoneNumber,
+#youremailAddress,
+#yourlocation,
+#option,
+#price {
+  width: 400px;
+  height: 30px;
+  padding: 20px;
+  background-color: inherit;
+  border-radius: 10px;
+  border: 1px solid #bf780a;
+}
+
+#sendMesagebtn {
+  width: 400px;
+  height: 50px;
+  background-color: #bf780a;
+  border-radius: 5px;
+  color: white;
+}
+
+#sendMesagebtn:hover,
+#sendMesagebtn::after {
+  background-color: rgb(94, 59, 6);
+}
+
+@media screen and (max-width: 980px) {
+  .contactUsBody {
+    background-position: top;
+  }
+  .contact_us {
+    margin: 10px 30px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding: 30px;
+  }
+  .TakeOrder h1 {
+    text-align: center;
+    color: #bf780a;
+    background-color: black;
+    font-size: 18px;
+    padding: 20px;
+  }
+  #fullName,
+  #yourphoneNumber,
+  #youremailAddress,
+  #yourlocation,
+  #option,
+  #price {
+    width: 300px;
+    color: red;
+  }
+  #sendMesagebtn {
+    width: 300px;
+    height: 50px;
+  }
+}
